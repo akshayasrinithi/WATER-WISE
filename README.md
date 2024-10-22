@@ -1,4 +1,4 @@
-Here’s an enhanced version of your README content for the **Water-Wise** project, incorporating the `manifest.json` section along with more engaging details to attract users and contributors:
+
 
 ---
 
