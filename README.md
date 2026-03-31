@@ -1,16 +1,16 @@
-WATER-WISE
+## WATER-WISE
 
 AC Condensation Water Recovery and Monitoring System
 
-Overview
+## Overview
 
 WATER-WISE is a system designed to capture and reuse water generated from air conditioning units. The project focuses on reducing water wastage by integrating data monitoring and visualization tools.
 
-Problem Statement
+## Problem Statement
 
 Air conditioners produce a significant amount of condensate water, which is typically wasted. This project aims to collect, monitor, and repurpose that water for practical use.
 
-System Description
+## System Description
 
 The system consists of three main components:
 
