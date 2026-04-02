@@ -38,6 +38,7 @@ A 3D model is developed in Unity to represent the system and its operation.
 2. **Set up Wokwi**:
    - Visit [Wokwi](https://wokwi.com/) and create your circuit using the provided components.
    - Import the Wokwi project files from the repository.
+![Uploading untyy.png…]()
 
 3. **ThingSpeak Configuration**:
    - Sign up for a ThingSpeak account at [ThingSpeak](https://thingspeak.com/).
