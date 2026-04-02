@@ -88,6 +88,8 @@ https://wokwi.com/projects/399206350042061825
 * Copy API keys
 * Update them in your project code
 
+<img width="1908" height="863" alt="Screenshot 2026-04-02 112800" src="https://github.com/user-attachments/assets/432218c5-e25c-421d-bab8-55b2dd49a3cc" />
+
 ---
 
 ### 4. Unity Setup
@@ -95,6 +97,8 @@ https://wokwi.com/projects/399206350042061825
 * Install Unity Hub
 * Open the Unity project from this repository
 * Load the scene and run the simulation
+* 
+<img width="1703" height="836" alt="Screenshot 2026-04-02 112202" src="https://github.com/user-attachments/assets/f2c95523-2922-4f6a-8b62-1fd666075b35" />
 
 ---
 
@@ -122,9 +126,6 @@ https://wokwi.com/projects/399206350042061825
 * ThingSpeak Dashboard
 * Unity 3D Model
 
-<img width="1816" height="1926" alt="untyy" src="https://github.com/user-attachments/assets/e84deb28-1df0-44d0-b0a7-d390f5a30913" />
-
-<img width="1703" height="836" alt="Screenshot 2026-04-02 112202" src="https://github.com/user-attachments/assets/2ef52796-734b-45f7-a45d-cdfabe9f0e89" />
 
 ---
 
