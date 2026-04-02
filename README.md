@@ -117,15 +117,7 @@ https://wokwi.com/projects/399206350042061825
 3. Sensor data is simulated (Wokwi)
 4. Data is sent to ThingSpeak
 5. System is visualized in Unity
-
----
-
-## 📸 Demo / Screenshots
-
-* Wokwi Circuit
-* ThingSpeak Dashboard
-* Unity 3D Model
-
+<img width="672" height="454" alt="Screenshot 2026-04-02 114021" src="https://github.com/user-attachments/assets/b38b0451-53fd-4236-88c5-35c4b0d5815f" />
 
 ---
 
