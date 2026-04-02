@@ -1,4 +1,3 @@
- AC Condensation Water Recovery and Monitoring System
 # 💧 WATER-WISE
 
 ### AC Condensation Water Recovery and Monitoring System
