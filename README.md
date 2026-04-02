@@ -121,13 +121,9 @@ cd water-wise
 * ThingSpeak Dashboard
 * Unity 3D Model
 
-Example:
-
-```md
-![Wokwi Simulation](assets/wokwi.png)
-![ThingSpeak Dashboard](assets/thingspeak.png)
-![Unity Model](assets/unity.png)
-```
+<img width="2000" height="2825" alt="untyy" src="https://github.com/user-attachments/assets/609b949e-88d8-4478-8ab2-1ec0080a039c" />
+<img width="2000" height="2825" alt="wokwi" src="https://github.com/user-attachments/assets/a18e06e0-606c-486d-b852-7fea525f75ce" />
+<img width="2000" height="2825" alt="unity" src="https://github.com/user-attachments/assets/cd15d62d-a9d5-45c6-83e5-a77766137a66" />
 
 ---
 
