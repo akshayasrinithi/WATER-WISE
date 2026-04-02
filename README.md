@@ -115,15 +115,13 @@ cd water-wise
 
 ## 📸 Demo / Screenshots
 
-> Add the following images in `/assets/`
-
 * Wokwi Circuit
 * ThingSpeak Dashboard
 * Unity 3D Model
 
-<img width="2000" height="2825" alt="untyy" src="https://github.com/user-attachments/assets/609b949e-88d8-4478-8ab2-1ec0080a039c" />
-<img width="2000" height="2825" alt="wokwi" src="https://github.com/user-attachments/assets/a18e06e0-606c-486d-b852-7fea525f75ce" />
-<img width="2000" height="2825" alt="unity" src="https://github.com/user-attachments/assets/cd15d62d-a9d5-45c6-83e5-a77766137a66" />
+<img width="1816" height="1926" alt="untyy" src="https://github.com/user-attachments/assets/e84deb28-1df0-44d0-b0a7-d390f5a30913" />
+<img width="1802" height="815" alt="Screenshot 2026-04-02 112137" src="https://github.com/user-attachments/assets/2351134e-8178-4472-8162-543546ddfafc" />
+<img width="1703" height="836" alt="Screenshot 2026-04-02 112202" src="https://github.com/user-attachments/assets/2ef52796-734b-45f7-a45d-cdfabe9f0e89" />
 
 ---
 
