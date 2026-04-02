@@ -97,8 +97,8 @@ https://wokwi.com/projects/399206350042061825
 * Install Unity Hub
 * Open the Unity project from this repository
 * Load the scene and run the simulation
-* 
 <img width="1703" height="836" alt="Screenshot 2026-04-02 112202" src="https://github.com/user-attachments/assets/f2c95523-2922-4f6a-8b62-1fd666075b35" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e80cdaff-312d-4202-a2a3-683a42fb49db" />
 
 ---
 
