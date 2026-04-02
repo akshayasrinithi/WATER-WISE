@@ -1,64 +1,139 @@
-## WATER-WISE
+# 💧 WATER-WISE
 
-AC Condensation Water Recovery and Monitoring System
+### AC Condensation Water Recovery and Monitoring System
 
-## Overview
+---
 
-WATER-WISE is a system designed to capture and reuse water generated from air conditioning units. The project focuses on reducing water wastage by integrating data monitoring and visualization tools.
+## 🚀 Overview
 
-## Problem Statement
+WATER-WISE is an intelligent system designed to capture, monitor, and reuse water generated from air conditioning units. The project focuses on minimizing water wastage by integrating real-time data monitoring and interactive visualization tools.
 
-Air conditioners produce a significant amount of condensate water, which is typically wasted. This project aims to collect, monitor, and repurpose that water for practical use.
+This system demonstrates how everyday appliances can be transformed into sustainable resource generators using technology.
 
-## System Description
+---
 
-The system consists of three main components:
+## 🎯 Problem Statement
 
-Water Collection
-Condensed water from AC units is collected and stored.
-Data Monitoring (Wokwi + ThingSpeak)
-Sensor data is simulated using Wokwi and transmitted to ThingSpeak for real-time monitoring.
-Visualization (Unity)
-A 3D model is developed in Unity to represent the system and its operation.
+Air conditioners generate a significant amount of condensate water during operation.
 
-## Technologies Used
+However:
 
-- **Wokwi**: For simulating and prototyping electronic circuits.
-- **ThingSpeak**: To collect, store, and visualize data online.
-- **Unity**: For creating an interactive 3D representation of the water collection process.
+* This water is typically discarded
+* No monitoring or tracking systems are used
+* Potential reuse opportunities are ignored
 
-## Installation
+WATER-WISE addresses this gap by creating a system that collects, tracks, and visualizes this otherwise wasted resource.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/water-wise.git
-   cd water-wise
-   ```
+---
 
-2. **Set up Wokwi**:
-   - Visit [Wokwi](https://wokwi.com/) and create your circuit using the provided components.
-   - Import the Wokwi project files from the repository.
-![Uploading untyy.png…]()
+## 💡 System Description
 
-3. **ThingSpeak Configuration**:
-   - Sign up for a ThingSpeak account at [ThingSpeak](https://thingspeak.com/).
-   - Create a new channel to store your water collection data.
-   - Update the API keys in your project code.
+The system consists of three major components:
 
-4. **Unity Setup**:
-   - Download and install Unity Hub.
-   - Create a new 3D project and import the assets from the repository.
-   - Set up the scene to represent the water collection process.
+### 1. 💧 Water Collection
 
-## Usage
+* Condensed water from AC units is captured
+* Stored for reuse in practical applications (cleaning, irrigation, etc.)
 
-1. **Run the Wokwi Simulation**: Start the simulation to see how the water collection system operates.
-2. **Monitor Water Collection**: Check the ThingSpeak channel for real-time data on the amount of condensed water collected.
-3. **Explore the Unity Visualization**: Launch the Unity project to interact with the 3D representation of your water-saving system.
+### 2. 📡 Data Monitoring (Wokwi + ThingSpeak)
 
-## Unity Project Configuration
+* Sensor data is simulated using **Wokwi**
+* Data is transmitted to **ThingSpeak** cloud platform
+* Enables real-time monitoring and analysis
 
-This project is configured using Unity and includes several essential packages. Below is the content of the `Packages/manifest.json` file, which specifies the dependencies used in this project:
+### 3. 🎮 Visualization (Unity)
+
+* A 3D model built in **Unity** represents the system
+* Provides an interactive view of water flow and storage
+* Enhances understanding through visual simulation
+
+---
+
+## 🛠️ Technologies Used
+
+* **Wokwi** – Circuit simulation and prototyping
+* **ThingSpeak** – Cloud-based data collection and visualization
+* **Unity** – 3D modeling and interactive simulation
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/water-wise.git
+cd water-wise
+```
+
+---
+
+### 2. Wokwi Setup
+
+* Visit: https://wokwi.com/
+* Create or import the circuit from this repository
+* Run the simulation to generate sensor data
+
+> 📌 Add your circuit screenshot in `/assets/wokwi.png`
+
+---
+
+### 3. ThingSpeak Configuration
+
+* Create an account: https://thingspeak.com/
+* Create a new channel
+* Copy API keys
+* Update them in your project code
+
+---
+
+### 4. Unity Setup
+
+* Install Unity Hub
+* Open the Unity project from this repository
+* Load the scene and run the simulation
+
+---
+
+## ▶️ Usage
+
+1. Run the Wokwi simulation
+2. Observe real-time data on ThingSpeak
+3. Launch Unity to interact with the 3D system
+
+---
+
+## 📊 System Workflow
+
+1. AC generates condensate water
+2. Water is collected and stored
+3. Sensor data is simulated (Wokwi)
+4. Data is sent to ThingSpeak
+5. System is visualized in Unity
+
+---
+
+## 📸 Demo / Screenshots
+
+> Add the following images in `/assets/`
+
+* Wokwi Circuit
+* ThingSpeak Dashboard
+* Unity 3D Model
+
+Example:
+
+```md
+![Wokwi Simulation](assets/wokwi.png)
+![ThingSpeak Dashboard](assets/thingspeak.png)
+![Unity Model](assets/unity.png)
+```
+
+---
+
+## 🧠 Unity Project Configuration
+
+This project uses Unity with the following package dependencies defined in `Packages/manifest.json`:
 
 ```json
 {
@@ -77,54 +152,49 @@ This project is configured using Unity and includes several essential packages. 
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
     "com.unity.xr.arfoundation": "4.2.10",
-    "com.unity.xr.arkit": "4.2.10",
-    "com.unity.modules.ai": "1.0.0",
-    "com.unity.modules.androidjni": "1.0.0",
-    "com.unity.modules.animation": "1.0.0",
-    "com.unity.modules.assetbundle": "1.0.0",
-    "com.unity.modules.audio": "1.0.0",
-    "com.unity.modules.cloth": "1.0.0",
-    "com.unity.modules.director": "1.0.0",
-    "com.unity.modules.imageconversion": "1.0.0",
-    "com.unity.modules.imgui": "1.0.0",
-    "com.unity.modules.jsonserialize": "1.0.0",
-    "com.unity.modules.particlesystem": "1.0.0",
-    "com.unity.modules.physics": "1.0.0",
-    "com.unity.modules.physics2d": "1.0.0",
-    "com.unity.modules.screencapture": "1.0.0",
-    "com.unity.modules.terrain": "1.0.0",
-    "com.unity.modules.terrainphysics": "1.0.0",
-    "com.unity.modules.tilemap": "1.0.0",
-    "com.unity.modules.ui": "1.0.0",
-    "com.unity.modules.uielements": "1.0.0",
-    "com.unity.modules.umbra": "1.0.0",
-    "com.unity.modules.unityanalytics": "1.0.0",
-    "com.unity.modules.unitywebrequest": "1.0.0",
-    "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
-    "com.unity.modules.unitywebrequestaudio": "1.0.0",
-    "com.unity.modules.unitywebrequesttexture": "1.0.0",
-    "com.unity.modules.unitywebrequestwww": "1.0.0",
-    "com.unity.modules.vehicles": "1.0.0",
-    "com.unity.modules.video": "1.0.0",
-    "com.unity.modules.vr": "1.0.0",
-    "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.xr.arkit": "4.2.10"
   }
 }
 ```
 
-## Contributing
+---
 
-Contributions are welcome! If you'd like to contribute to the Water-Wise project, please fork the repository and create a pull request.
+## 🔮 Future Enhancements
 
-## Acknowledgements
-
-- Special thanks to the Wokwi, ThingSpeak, and Unity communities for their valuable resources and support.
-- A shout-out to everyone who believes in sustainable practices and contributes to water conservation initiatives.
-
+* 🤖 AI-based water generation prediction
+* 📱 Web dashboard (Streamlit integration)
+* 🌐 IoT hardware implementation (real sensors)
+* 🌾 Smart irrigation system using collected water
 
 ---
 
+## 🤝 Contributing
 
+Contributions are welcome!
 
+1. Fork the repository
+2. Create a new branch
+3. Submit a pull request
 
+---
+
+## 🙌 Acknowledgements
+
+* Wokwi for circuit simulation
+* ThingSpeak for IoT data visualization
+* Unity for 3D system modeling
+
+Special thanks to all initiatives promoting sustainable water usage 🌱
+
+---
+
+## 👨‍💻 Author
+
+**Akshaya Srinithi SV**
+Final Year ECE | AI + Electronics Enthusiast
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
